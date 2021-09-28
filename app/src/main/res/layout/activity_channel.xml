@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ChannelActivity"
-    android:background="@drawable/bb03"
+    android:background="@drawable/back"
     >
 
 
@@ -80,7 +80,7 @@
         android:drawablePadding="10dp"
         android:ems="10"
         android:hint="Age"
-        android:inputType="textPersonName"
+        android:inputType="number"
         android:minHeight="48dp"
         android:paddingLeft="20dp"
         android:paddingTop="10dp"
@@ -89,7 +89,7 @@
         android:textColor="@color/colorWhite"
         android:textColorHint="@color/colorWhite"
         app:layout_constraintEnd_toEndOf="@+id/inputGender"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/inputGender"
         app:layout_constraintTop_toBottomOf="@+id/inputGender" />
 
@@ -103,7 +103,7 @@
         android:drawablePadding="10dp"
         android:ems="10"
         android:hint="07********"
-        android:inputType="textPersonName"
+        android:inputType="phone"
         android:minHeight="48dp"
         android:paddingLeft="20dp"
         android:paddingTop="10dp"
@@ -124,7 +124,7 @@
         android:drawableLeft="@drawable/ic_baseline_local_hospital_24"
         android:drawablePadding="10dp"
         android:ems="10"
-        android:hint="Desease"
+        android:hint="Disease"
         android:inputType="textPersonName"
         android:minHeight="48dp"
         android:paddingLeft="20dp"
@@ -171,7 +171,7 @@
         android:drawablePadding="10dp"
         android:ems="10"
         android:hint="YYYY/MM/DD"
-        android:inputType="textPersonName"
+        android:inputType="date"
         android:minHeight="48dp"
         android:paddingLeft="20dp"
         android:paddingTop="10dp"
@@ -188,7 +188,7 @@
         android:id="@+id/channel_btn"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="14dp"
+        android:layout_marginTop="48dp"
         android:background="@drawable/btn_bg"
         android:text="Channel"
         android:textColor="@color/material_on_primary_emphasis_high_type"
@@ -201,12 +201,12 @@
         android:id="@+id/appoinment_btn"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="14dp"
+        android:layout_marginTop="32dp"
         android:background="@drawable/btn_bg"
         android:text="My Appoinment"
         android:textColor="@color/material_on_primary_emphasis_high_type"
         app:layout_constraintEnd_toEndOf="@+id/channel_btn"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/channel_btn"
         app:layout_constraintTop_toBottomOf="@+id/channel_btn" />
 </androidx.constraintlayout.widget.ConstraintLayout>
