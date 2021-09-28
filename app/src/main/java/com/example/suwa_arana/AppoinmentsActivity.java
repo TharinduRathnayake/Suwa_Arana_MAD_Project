@@ -20,7 +20,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class AppoinmentsActivity extends AppCompatActivity {
-
+//variable declaration
    private RecyclerView recyclerView;
    private FirebaseFirestore db;
    private MycAdapter adapter;

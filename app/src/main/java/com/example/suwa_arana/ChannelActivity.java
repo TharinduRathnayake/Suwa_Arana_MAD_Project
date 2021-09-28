@@ -42,7 +42,7 @@ public class ChannelActivity extends AppCompatActivity {
 
 
      db= FirebaseFirestore.getInstance();
-
+//retrieve data in db
      Bundle bundle = getIntent().getExtras();
      if (bundle != null) {
          cChannelBtn.setText("Update");
