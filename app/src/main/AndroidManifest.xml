@@ -80,6 +80,12 @@
         <activity android:name=".BMICalActivity">
 
         </activity>
+
+        <activity
+            android:name=".BmrActivity"
+            android:exported="true" >
+
+        </activity>
     </application>
 
 </manifest>

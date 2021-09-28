@@ -21,6 +21,13 @@ public class calculator extends AppCompatActivity {
         btnc3=findViewById(R.id.btn_c3);
         btnc4=findViewById(R.id.btn_c4);
 
+        btnc1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(calculator.this,BmrActivity.class));
+            }
+        });
+
         btnc4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

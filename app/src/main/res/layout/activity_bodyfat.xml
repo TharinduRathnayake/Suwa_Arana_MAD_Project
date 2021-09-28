@@ -47,7 +47,7 @@
         android:id="@+id/et_neck"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="36dp"
         android:background="@drawable/input_bg"
         android:drawableLeft="@drawable/ic_neck"
         android:drawablePadding="10dp"

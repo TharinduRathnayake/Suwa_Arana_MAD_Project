@@ -59,4 +59,11 @@
     <string name="height">Height in cm</string>
     <string name="calculate_button">Calculte BMI</string>
     <string name="result">Result</string>
+
+
+    <string name="tv_des">Basal Metabolic Rate (BMR)</string>
+
+    <string name="tv_answer">Answer</string>
+
+
 </resources>
